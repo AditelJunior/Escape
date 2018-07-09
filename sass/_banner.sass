@@ -1,0 +1,124 @@
+.banner
+  background: url(../img/desc.jpg)
+  height: 100vh
+  background-size: cover
+  text-align: center
+
+.wrap_ban
+  min-height: 100%
+  background-color: rgba(0, 0, 0, 0.3)
+
+
+.top_line
+  padding-top: 50px
+
+.logotype
+  display: inline-block
+  color: #fff
+  font-size: 2.0rem
+  text-transform: uppercase
+  float: left
+
+.logo
+  color: white
+
+.mobile_nav
+  display: none
+
+.top_nav
+  display: block
+  float: right
+
+.nav_item
+  display: inline-block
+
+.nav_link
+  color: #FFF
+  padding: 10px 12px
+
+.banner_txt
+  display: inline-block
+  margin-top: 100px
+  text-align: center
+  color: white
+  z-index: 2
+
+.question
+  font-size: 1.7rem
+  margin-bottom: 30px
+
+.we_can
+  font-size: 5rem
+  font-weight: bold
+  margin-bottom: 50px
+
+.btn_learn
+  font-size: 1.5rem
+  border: 2px solid #FFF
+  border-radius: 3px
+  display: inline-block
+  padding: 10px 35px
+.three_line
+  display: none
+@media screen and(max-width: 992px)
+  .question
+    font-size: 1.3rem
+  .we_can
+    font-size: 4rem
+  .btn_learn
+    font-size: 1.1rem
+@media screen and(max-width: 850px)
+  .top_line
+    padding-top: 15px
+@media screen and(max-width: 768px)
+  .top_nav
+    display: none
+  .apear_mob_menu
+    position: fixed
+    top: 20px
+    right: 20px
+    z-index: 4
+  .three_line
+    // transition: linear 0.4s
+    display: block
+    color: #FFF
+    font-size: 1.8rem
+    padding: 10px
+    background: rgba(0,0,0, 0.5)
+    text-align: right
+  .mobile_nav
+    display: none
+    background: rgba(0,0,0, 0.5)
+    padding: 0
+    margin: 0
+  .mob_nav_item
+    display: block
+  .mob_nav_link
+    padding: 1rem 3.5rem
+    display: block
+    box-sizing: border-box
+    &:hover
+      border: 1px solid #FFF
+@media screen and(max-width: 600px)
+  .question
+    font-size: 1rem
+    margin-bottom: 15px
+  .we_can
+    font-size: 3rem
+    margin-bottom: 20px
+@media screen and(max-width: 550px)
+  .banner_txt
+    display: none
+  .apear_mob_menu
+    width: 100%
+    top: 0
+    left: 0
+  .three_line
+    text-align: center
+  .logotype
+    display: block
+    float: right
+    margin-top: 15%
+    font-size: 1.5rem
+  .logo_plane_img
+    width: 30px

@@ -1,0 +1,65 @@
+.team_block
+  background: #000
+
+.container_team
+  color: white
+  padding: 80px 0
+  text-align: center
+
+.capt_team
+  margin-bottom: 10px
+
+.under_capt_team
+  color: #777777
+  font-size: 1.2rem
+  margin-top: 0
+
+.team_profile
+  display: flex
+  justify-content: space-between
+  text-align: center
+
+.member_img
+  width: 80%
+  border: 5px solid #FFF
+  border-radius: 50%
+
+.name
+  margin: 5px 0 0 3px
+
+.position
+  margin: 7px 0
+  font-weight: normal
+  font-family: 'Lato-Light'
+  color: #B3B8BF
+
+.social_link
+  display: inline-block
+  border: 2px solid #FFF
+  border-radius: 50%
+  width: 23px
+  height: 23px
+  line-height: 23px
+
+.text_under_profile
+  display: inline-block
+  margin-top: 35px
+  width: 80%
+  color: #B3B8BF
+@media screen and(max-width: 992px)
+  .under_capt_team
+    font-size: 1rem
+@media screen and(max-width: 768px)
+  .container_team
+    padding: 30px 0
+@media screen and(max-width: 450px)
+  .team_profile
+    display: block
+  .team_member
+    margin-bottom: 30px
+    &:last-child
+      margin-bottom: 0
+  .member_img
+    width: 60%
+  .text_under_profile
+    display: none
